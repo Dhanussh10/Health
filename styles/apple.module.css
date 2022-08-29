@@ -1,0 +1,198 @@
+.first h1{
+        position: absolute;
+        width: 127px;
+        height: 52px;
+        left: 500px;
+        top: 25px;
+        font-family: "Inter";
+        font-style: normal;
+        font-weight: 600;
+        font-size: 35px;
+        line-height: 52px;
+        text-align: center;
+        color: #212121;
+    
+    
+}
+.second label{
+        position: absolute;
+    width: 32px;
+    height: 15px;
+    left: 514px;
+    top: 115px;
+
+    font-family: 'Inter';
+    font-style: normal; 
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 15px;
+/* identical to box height */
+
+
+     color: #212121;
+
+opacity: 0.4;
+}
+
+.second input[type=email]{
+    position: absolute;
+    background: transparent;
+    border: none;
+    width: 450px;
+    left: 514px;
+    top:140px;
+    border-bottom: 1px solid grey;
+}
+
+.Third label{
+        position: absolute;
+    width: 32px;
+    height: 15px; 
+    left: 514px;
+    top: 185px;
+
+    font-family: 'Inter';
+    font-style: normal; 
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 15px;
+    color: #212121;
+    opacity: 0.4;
+}
+
+.Third input[type=password] {
+        position: absolute;
+        background: transparent;
+        border:none;
+        display: line;
+        width: 450px;
+        left: 514px;
+        top:210px;
+        border-bottom: 1px solid gray;
+}
+
+.fourth{
+        position: absolute;
+    width: 297px;
+    height: 10px;
+    left: 514px;
+    top: 215px;
+
+   font-family: 'Inter';
+   font-style: normal;
+   font-weight: 300;
+   font-size: 12px;
+   line-height: 17px;
+   /* identical to box height */
+   color: #212121;
+   opacity: 0.3;
+}
+
+.fifth button{
+        position: absolute;
+        border: none;
+        display: inline-block;
+        background-color: #D2D3D9;
+        text-align: center;
+        color: white;
+        cursor: pointer;
+        width:450px;
+        text-align: center;
+        height: 30px;
+        left: 514px;
+        top: 270px;
+        border-radius: 6px;
+}
+
+.fifth button:hover{
+        background-color: #1996FC;
+}
+
+.sixth{
+        position: absolute;
+        width: 328px;
+        height: 15px;
+       left: 533px;
+       top: 310px;
+       font-family: 'Inter';
+       font-style: normal;
+       font-weight: 400;
+       font-size: 12px;
+      line-height: 15px;
+      text-align: center;
+    
+       color: #212121;
+}
+
+.six1{
+        position: absolute;
+        width: 328px;
+        height: 15px;
+       left: 658px;
+       top: 310px;
+       font-family: 'Inter';
+       font-style: normal;
+       font-weight: 400;
+       font-size: 12px;
+      line-height: 15px;
+      text-align: center;
+      cursor: pointer;
+      color:#1996FC;
+}
+
+.six2{
+        position: absolute;
+    width: 328px;
+    height: 15px;
+   left: 712px;
+   top: 310px;
+   font-family: 'Inter';
+   font-style: normal;
+   font-weight: 400;
+   font-size: 12px;
+  line-height: 15px;
+  text-align: center;
+}
+
+.six3{
+        position: absolute;
+    width: 328px;
+    height: 15px;
+   left: 600px;
+   top: 320px;
+   font-family: 'Inter';
+   font-style: normal;
+   font-weight: 400;
+   font-size: 12px;
+  line-height: 15px;
+  text-align: center;
+  color:#1996FC;
+  cursor: pointer;
+}
+
+.seven{
+        position: absolute;
+    width: 156px;
+    height: 17px;
+    left: 685px;
+    top: 390px;
+
+    font-family: 'Inter';
+    font-style: normal;
+   font-weight: 600;
+   font-size: 14px;
+   line-height: 17px;
+   /* identical to box height */
+
+   text-align: center;
+   cursor: pointer;
+   color: #1996FC;
+}
+
+.image img{
+        position:absolute;
+        width: 350px;
+        height:100%;
+        left:0;
+        top:0;
+}

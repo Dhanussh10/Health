@@ -1,0 +1,57 @@
+.first{
+
+    position: absolute;
+    width: 786px;
+    height: 16px;
+    left: 350px;
+    top: 96px;
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 46px;
+    /* identical to box height */
+    
+    
+    color: #212121;
+    }
+
+.second{
+        position: absolute;
+        width: 451px;
+        height: 18px;
+        left: 353px;
+        top: 166px;
+        
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 16px;
+        /* or 161% */
+        
+        
+        color: #212121;
+        
+}
+
+.third button{
+    position: absolute;
+    border: none;
+    display: inline-block;
+    background-color:white;
+    text-align:center;
+    color: #212121;
+    cursor: pointer;
+    border-radius: 4px;
+    left: 350px;
+    top:300px;
+    height: 50px;
+    width: 330px;
+}
+
+.third button:hover{
+    background-color: #1996FC;
+    color:white;
+}
