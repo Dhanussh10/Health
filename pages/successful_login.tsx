@@ -2,6 +2,7 @@ import React from 'react'
 import styles from "../styles/loginsuccess.module.css"
 import Head from '../node_modules/next/head'
 import Image from '../node_modules/next/image'
+import Link from '../node_modules/next/link'
 const successful_login = () => {
   return (
     <div className={styles.container}>
@@ -16,7 +17,7 @@ const successful_login = () => {
         click below to login magically</p>
       </div>
       <div className={styles.third}>
-        <button>Continue</button>
+        <Link href="/Adminpage"><a><button>Continue</button></a></Link>
       </div>
     </div>
   )

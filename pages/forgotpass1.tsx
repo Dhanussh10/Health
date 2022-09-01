@@ -3,6 +3,7 @@ import styles from "../styles/forgotpass1.module.css"
 import { LinkHTMLAttributes } from 'react'
 import Head from '../node_modules/next/head'
 import Image from '../node_modules/next/image'
+import Link from '../node_modules/next/link'
 const forgotpass1 = () => {
   return (
     <div className={styles.container}>
@@ -22,7 +23,7 @@ const forgotpass1 = () => {
             <p>click to resend</p>
         </div>
        <div className={styles.five}>
-          <p>Back</p>
+          <Link href="/forgotpassword"><a>Back</a></Link>
        </div>
     </div>
   )

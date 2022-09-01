@@ -3,6 +3,7 @@ import styles from '../styles/forgotpass.module.css'
 import { LinkHTMLAttributes } from 'react'
 import Head from '../node_modules/next/head'
 import Image from '../node_modules/next/image'
+import Link from '../node_modules/next/link'
 const forgotpassword = () => {
   return (
     <div className={styles.container}>
@@ -13,7 +14,7 @@ const forgotpassword = () => {
             <h3>Forgot your Password</h3>
         </div>
         <div className={styles.second}>
-            <p> Back </p>
+            <Link href="/login"><a><p>Back </p></a></Link> 
         </div>
         <div className={styles.third}>
             <p>Enter your email address and we'll send you an email with all the instructions</p>
@@ -25,7 +26,7 @@ const forgotpassword = () => {
             <p><input type="email" name="email" id="email"/></p>
         </div>
         <div className={styles.sixth}>
-            <button>Send me instructions</button>
+            <button><Link href="/forgotpass1"><a>Send me instructions</a></Link></button>
         </div>
         <div className={styles.seven}>
             <button>Cancel</button>

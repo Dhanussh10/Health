@@ -3,6 +3,7 @@ import styles from "../styles/passwordreset.module.css"
 import { LinkHTMLAttributes } from 'react'
 import Head from '../node_modules/next/head'
 import Image from '../node_modules/next/image'
+import Link from '../node_modules/next/link'
 const passwordreset = () => {
   return (
     <div className={styles.container}>
@@ -13,7 +14,7 @@ const passwordreset = () => {
         <h1>Set new password</h1>
       </div>
       <div className={styles.second}>
-        <p><strong>Back</strong></p>
+        <Link href="/forgotpass1"><a><p><strong>Back</strong></p></a></Link>
       </div>
       <div className={styles.third}>
       <p>your passwords must be different from <br/>previous used passwords</p>
@@ -33,7 +34,7 @@ const passwordreset = () => {
         <p>Both password must match</p>
     </div>
     <div className={styles.eight}>
-        <button>Reset password</button>
+        <button><Link href="/successful_login"><a>Reset password</a></Link></button>
     </div>
     <div className={styles.nine}>
         <button>Cancel</button>

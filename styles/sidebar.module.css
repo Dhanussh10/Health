@@ -1,0 +1,41 @@
+.first img{
+    position: absolute;
+   width: 60px;
+height: 100%;
+left: 0px;
+top: 0px;
+
+background: #1996FC;    
+}
+
+.first img:hover{
+    width:150px;
+}
+
+.first h1{
+    position: absolute;
+    width:50px;
+    
+}
+
+.second img{
+    position: absolute;
+    width: 50px;
+    height:43px;
+    left:6px;
+    top: 6px;
+}
+
+.first h3{
+    position: absolute;
+width: 84.27px;
+height: 15.16px;
+left: 47.73px;
+top: 27.16px;
+
+background: #FFFFFF;
+
+}
+
+
+

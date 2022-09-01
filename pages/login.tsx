@@ -3,6 +3,9 @@ import styles from '../styles/apple.module.css'
 import { LinkHTMLAttributes } from 'react'
 import Head from '../node_modules/next/head'
 import Image from '../node_modules/next/image'
+import Link from '../node_modules/next/link'
+
+
 const login = () => {
   return (
     <div className={styles.container}>
@@ -17,10 +20,10 @@ const login = () => {
       <div className={styles.fourth}><p>Minimum 8 characters with at least 1 number</p></div>
       <div className={styles.fifth}><button>Log in</button></div>
       <div className={styles.sixth}><p>By signing in you agree to Health</p></div>
-      <div className={styles.six1}><p>Terms of service</p></div>
+      <div className={styles.six1}><Link href="/terms"><a><p>Terms of service</p></a></Link></div>
       <div className={styles.six2}><p>and</p></div>
-      <div className={styles.six3}><p>Privacy policy</p></div>
-      <div className={styles.seven}><h4>Forgot your password?</h4></div>
+      <div className={styles.six3}><Link href="/privacy"><a><p>Privacy policy</p></a></Link></div>
+      <div className={styles.seven}><Link href="/forgotpassword"><a><h4>Forgot your password?</h4></a></Link></div>
       <div className={styles.image}>
         <img src="/Layout.jpg" alt="image"/>
       </div>

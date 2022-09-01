@@ -2,7 +2,7 @@
   padding: 0 2rem;
 }
 
-.main {
+.main  {
   min-height: 100vh;
   padding: 4rem 0;
   flex: 1;
@@ -128,6 +128,44 @@
   .logo img {
     filter: invert(1);
   }
+}
+
+.first img{
+  position: absolute;
+  border: none;
+  display: inline-block;
+  cursor: pointer;
+  width:300px;
+  text-align: center;
+  height: 250px;
+  left: 400px;
+  top: 90px;
+}
+
+.title{
+  position: absolute;
+  top: 4px;
+}
+
+.main .button button{
+  position: absolute;
+  border: none;
+  display: inline-block;
+  background-color: #D2D3D9;
+  text-align: center;
+  color: black;
+  cursor: pointer;
+  width:300px;
+  text-align: center;
+  height: 30px;
+  left: 400px;
+  top: 330px;
+  border-radius: 6px;
+}
+
+.main .button button:hover{
+  background-color: #1996FC;
+  color: white;
 }
 
 
