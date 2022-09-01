@@ -17,7 +17,7 @@ export default function Home() {
 
       <main className={styles.main}>
         <h1 className={styles.title}>
-          Welcome to ProjectHealth
+        
         </h1>
         <p className={styles.button}>
           <button><Link href="/login"><a>Go To Login Page!</a></Link></button></p>
