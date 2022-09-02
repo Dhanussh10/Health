@@ -18,7 +18,7 @@ const login = () => {
       <div className={styles.Third}><label>Password</label>
       <p><input type="password" name="password" id="password" /></p></div>
       <div className={styles.fourth}><p>Minimum 8 characters with at least 1 number</p></div>
-      <div className={styles.fifth}><button>Log in</button></div>
+      <div className={styles.fifth}><Link href='/Adminpage'><a><button>Log in</button></a></Link></div>
       <div className={styles.sixth}><p>By signing in you agree to Health</p></div>
       <div className={styles.six1}><Link href="/terms"><a><p>Terms of service</p></a></Link></div>
       <div className={styles.six2}><p>and</p></div>
