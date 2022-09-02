@@ -17,7 +17,7 @@ const forgotpass1 = () => {
         <p>we have sent a password reset link to <br/><strong>dhanussh@cognitiveclouds.com</strong> </p>
         </div>
         <div className={styles.Third}>
-            <p>didn't receive the email.?</p>
+            <p>didn&apos;t receive the email.?</p>
         </div>
         <div className={styles.four}>
             <p>click to resend</p>

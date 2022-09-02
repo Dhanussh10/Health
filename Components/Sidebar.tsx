@@ -9,22 +9,19 @@ const Sidebar = () => {
     <div>
   
         <div className={styles.first}>
-        
-        <img src="/sidefig-main.jpg" alt="figure"></img>
-        
-        
+        <Image src="/sidefig-main.jpg" alt="figure" layout='fill' />
         </div>
         <div className={styles.second}>
-            <img src="/side-fig1.jpg" alt="figure"></img>
+            <Image src="/side-fig1.jpg" alt="figure" layout='fill'/>
         </div>
         <div className={styles.line}>
           <p>-</p>
         </div>
         <div className={styles.third}>
-          <img src='/Notification_bell.jpg' alt='figure'/>
+          <Image src='/Notification_bell.jpg' alt='figure' layout='fill'/>
         </div>
         <div className={styles.pic}>
-          <img src='/photo.jpg' alt="photo"/>
+          <Image src='/photo.jpg' alt="photo" layout='fill'/>
         </div>
      
     </div>

@@ -25,7 +25,7 @@ const login = () => {
       <div className={styles.six3}><Link href="/privacy"><a><p>Privacy policy</p></a></Link></div>
       <div className={styles.seven}><Link href="/forgotpassword"><a><h4>Forgot your password?</h4></a></Link></div>
       <div className={styles.image}>
-        <img src="/Layout.jpg" alt="image"/>
+        <Image src="/Layout.jpg" alt="image" width={350} layout='fill' />
       </div>
     </div>
   )

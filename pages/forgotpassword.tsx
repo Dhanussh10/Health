@@ -17,7 +17,7 @@ const forgotpassword = () => {
             <Link href="/login"><a><p>Back </p></a></Link> 
         </div>
         <div className={styles.third}>
-            <p>Enter your email address and we'll send you an email with all the instructions</p>
+            <p>Enter your email address and we&apos;ll send you an email with all the instructions</p>
         </div>
         <div className={styles.fourth}>
             <label>Email</label>
