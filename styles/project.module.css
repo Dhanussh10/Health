@@ -1,0 +1,420 @@
+.myfirstcontainer{
+    display: flex;
+    flex-direction: column;
+    
+    
+    padding: 5px ;
+    
+    position: relative;
+    width: 1048px;
+    height: 50px;
+    left: 45px;
+    top: 45px;
+    border: 1px solid  #E5E7EB;
+    /* white */
+    
+    background: #FFFFFF;
+    
+    }
+    
+    .first{
+    
+    /* text-lg/font-semibold */
+    
+    font-family: 'Inter';
+    position: absolute;
+    left:55px;
+    /* identical to box height, or 27px */
+    
+    
+    /* cool-gray/900 */
+    
+    color: #111928;
+    top: -3px;
+    
+    
+    /* Inside auto layout */
+    
+    }
+    
+    .searchbar input[type=text]{
+        box-sizing: border-box;
+        position: absolute;
+    /* Auto layout */
+    
+    
+    padding: 5px 10px;
+    
+    width: 300px;
+    height: 30px;
+    left: 380px;
+    top: 8px;
+    
+    /* cool-gray/50 */
+    
+    background: #F9FAFB;
+    /* cool-gray/200 */
+    
+    border-radius: 16px;
+    border: 1px solid #E5E7EB;
+    
+    /* Inside auto layout */
+    
+    
+    }
+    
+    .button button{
+        
+     
+    padding: 5px ;
+    display: inline-block;
+    border: none;
+    width: 100px;
+    height: 30px;
+    position: absolute;
+    left: 924px;
+    top: 8px;
+    /* Style */
+    color: white;
+    background: #262626;
+    border-radius: 13px;
+    
+    /* Inside auto layout */
+    cursor: pointer;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    }
+    
+    .button button:hover{
+        color: white;
+        background-color: darkblue;
+    }
+    
+.modalfirst{
+position: absolute;
+width: 125px;
+height: 13px;
+left: 300px;
+top: 56px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 600;
+font-size: 17px;
+line-height: 150%;
+/* identical to box height, or 33px */
+/* cool-gray/900 */
+color: #111928;
+}
+
+.modalline{
+    position: absolute;
+   width: 495px;
+height: 1px;
+left: 300px;
+top: 108px;
+
+background: #ECECEF;
+
+}
+
+.modalsecond{
+    position: absolute;
+width: 42px;
+height: 10px;
+left: 300px;
+top: 113px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 600;
+font-size: 10px;
+line-height: 100%;
+/* identical to box height, or 14px */
+
+
+
+/* 212121 */
+
+color: #212121;
+
+}
+
+.modalthird input[type=text]{
+box-sizing: border-box;
+
+position: absolute;
+width: 495px;
+height: 23px;
+left: 300px;
+top: 135px;
+color: rgba(33, 33, 33, 0.4);
+background: #FFFFFF;
+border: 1px solid #DCDCE0;
+border-radius: 3px;
+line-height: 100%;
+font-family: 'Inter';
+font-style: normal;
+
+}
+
+.modalfour{
+    position: absolute;
+    width: 42px;
+    height: 10px;
+    left: 301px;
+    top: 161px;
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 10px;
+    line-height: 100%;
+    /* identical to box height, or 14px */
+    
+    
+    
+    /* 212121 */
+    
+    color: #212121;
+}
+
+.modalfive select{
+    box-sizing: border-box;
+
+position: absolute;
+width: 495px;
+height: 23px;
+left: 300px;
+top: 183px;
+color: rgba(33, 33, 33, 0.4);
+background: #FFFFFF;
+border: 1px solid #DCDCE0;
+border-radius: 3px;
+line-height: 100%;
+font-family: 'Inter';
+font-style: normal;
+}
+
+.canbut button{
+position: absolute;
+width: 77px;
+font-size: normal;
+font-weight: bold;
+font-family: 'inter';
+height: 28px;
+left: 630px;
+top: 390px;
+border: 1px solid #D1D5DB;
+color:#D1D5DB;
+background: #f6f6f6;
+border-radius: 6px;
+}
+
+
+.canbut button:hover{
+    color: black;
+    background-color: #FFFF;
+    cursor:pointer;
+}
+
+.modalsix{
+    position: absolute;
+    width: 92px;
+    height: 10px;
+    left: 301px;
+    top: 213px;
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 10px;
+    line-height: 100%;
+    /* identical to box height, or 14px */
+    
+    
+    
+    /* 212121 */
+    
+    color: #212121;
+}
+
+.modalseven select{
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 225px;
+    height: 23px;
+    left: 300px;
+    top: 235px;
+    color: rgba(33, 33, 33, 0.4);
+    background: #FFFFFF;
+    border: 1px solid #DCDCE0;
+    border-radius: 3px;
+    line-height: 100%;
+    font-family: 'Inter';
+    font-style: normal;
+}
+
+.modaleight{
+    position: absolute;
+    width: 120px;
+    height: 10px;
+    left: 570px;
+    top: 223px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 10px;
+    line-height: 100%;
+    /* identical to box height, or 14px */
+    /* 212121 */    
+    color: #212121;
+}
+
+.modalnine select{
+    box-sizing: border-box;
+    position: absolute;
+    width: 225px;
+    height: 23px;
+    left: 570px;
+    top: 235px;
+    color: rgba(33, 33, 33, 0.4);
+    background: #FFFFFF;
+    border: 1px solid #DCDCE0;
+    border-radius: 3px;
+    line-height: 100%;
+    font-family: 'Inter';
+    font-style: normal;  
+}
+
+.modalten{
+    position: absolute;
+    width: 92px;
+    height: 10px;
+    left: 301px;
+    top: 265px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 10px;
+    line-height: 100%;
+    /* identical to box height, or 14px */
+     /* 212121 */
+    color: #212121;
+}
+
+.modaleleven{
+    position: absolute;
+    width: 92px;
+    height: 10px;
+    left: 570px;
+    top: 265px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 10px;
+    line-height: 100%;
+    /* identical to box height, or 14px */
+     /* 212121 */
+    color: #212121;
+}
+
+.modaltwelve input[type=date]{
+    box-sizing: border-box;
+    position: absolute;
+    width: 225px;
+    height: 23px;
+    left: 570px;
+    top: 289px;
+    color: rgba(33, 33, 33, 0.4);
+    background: #FFFFFF;
+    border: 1px solid #DCDCE0;
+    border-radius: 3px;
+    line-height: 100%;
+    font-family: 'Inter';
+    font-style: normal;  
+}
+
+.modalthirteen input[type=date]{
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 225px;
+    height: 23px;
+    left: 300px;
+    top: 289px;
+    color: rgba(33, 33, 33, 0.4);
+    background: #FFFFFF;
+    border: 1px solid #DCDCE0;
+    border-radius: 3px;
+    line-height: 100%;
+    font-family: 'Inter';
+    font-style: normal;
+}
+
+.modalfourteen{
+    position: absolute;
+    width: 92px;
+    height: 10px;
+    left: 301px;
+    top: 320px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 10px;
+    line-height: 100%;
+    /* identical to box height, or 14px */
+     /* 212121 */
+    color: #212121;
+}
+
+.modalfifteen{
+    position: absolute;
+    width: 92px;
+    height: 10px;
+    left: 570px;
+    top: 320px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 10px;
+    line-height: 100%;
+    /* identical to box height, or 14px */
+     /* 212121 */
+    color: #212121;
+}
+
+.modalsixteen select{
+    box-sizing: border-box;
+    position: absolute;
+    width: 225px;
+    height: 23px;
+    left: 300px;
+    top: 342px;
+    color: rgba(33, 33, 33, 0.4);
+    background: #FFFFFF;
+    border: 1px solid #DCDCE0;
+    border-radius: 3px;
+    line-height: 100%;
+    font-family: 'Inter';
+    font-style: normal;
+}
+
+.modalseventeen select{
+    box-sizing: border-box;
+    position: absolute;
+    width: 225px;
+    height: 23px;
+    left: 570px;
+    top: 342px;
+    color: rgba(33, 33, 33, 0.4);
+    background: #FFFFFF;
+    border: 1px solid #DCDCE0;
+    border-radius: 3px;
+    line-height: 100%;
+    font-family: 'Inter';
+    font-style: normal;
+}
+    

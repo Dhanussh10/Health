@@ -9,6 +9,7 @@ const passwordreset = () => {
     <div className={styles.container}>
       <Head>
         <title>Password Reset Page</title>
+        <link rel="icon" href="/Health.jpg" />
       </Head>
       <div className={styles.first}>
         <h1>Set new password</h1>

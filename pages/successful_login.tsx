@@ -8,6 +8,7 @@ const successful_login = () => {
     <div className={styles.container}>
       <Head>
         <title>Successfull Login Page</title>
+        <link rel="icon" href="/Health.jpg" />
       </Head>
       <div className={styles.first}>
         <h1>Password reset</h1>

@@ -9,6 +9,7 @@ const forgotpass1 = () => {
     <div className={styles.container}>
         <Head>
             <title>Message</title>
+            <link rel="icon" href="/Health.jpg" />
         </Head>
         <div className={styles.first}>
             <h2>Check your Email</h2>

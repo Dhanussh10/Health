@@ -1,0 +1,310 @@
+.myfirstcontainer{
+display: flex;
+flex-direction: column;
+
+
+padding: 5px ;
+
+position: relative;
+width: 1048px;
+height: 50px;
+left: 45px;
+top: 45px;
+border: 1px solid  #E5E7EB;
+/* white */
+
+background: #FFFFFF;
+
+}
+
+.first{
+
+/* text-lg/font-semibold */
+
+font-family: 'Inter';
+position: absolute;
+left:55px;
+/* identical to box height, or 27px */
+
+
+/* cool-gray/900 */
+
+color: #111928;
+top: -3px;
+
+
+/* Inside auto layout */
+
+}
+
+.searchbar input[type=text]{
+    box-sizing: border-box;
+    position: absolute;
+/* Auto layout */
+
+
+padding: 5px 10px;
+
+width: 300px;
+height: 30px;
+left: 380px;
+top: 8px;
+
+/* cool-gray/50 */
+
+background: #F9FAFB;
+/* cool-gray/200 */
+
+border-radius: 16px;
+border: 1px solid #E5E7EB;
+
+/* Inside auto layout */
+
+
+}
+
+.button button{
+    
+ 
+padding: 5px ;
+display: inline-block;
+border: none;
+width: 100px;
+height: 30px;
+position: absolute;
+left: 924px;
+top: 8px;
+/* Style */
+color: white;
+background: #262626;
+border-radius: 13px;
+
+/* Inside auto layout */
+cursor: pointer;
+flex: none;
+order: 0;
+flex-grow: 0;
+}
+
+.button button:hover{
+    color: white;
+    background-color: darkblue;
+}
+
+.invite h3{
+position: absolute;
+width: 90px;
+height: 33px;
+left: 300px;
+top: 100px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 600;
+font-size: 18px;
+line-height: 150%;
+/* identical to box height, or 33px */
+
+
+/* cool-gray/900 */
+
+color: #111928;
+
+}
+
+.line {
+position: absolute;
+width: 495px;
+height: 1px;
+left: 300px;
+top: 150px;
+
+background: #ECECEF;
+}
+
+.m1 {
+position: absolute;
+width: 42px;
+height: 11px;
+left: 300px;
+top: 160px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 600;
+font-size: 11px;
+
+/* identical to box height, or 14px */
+
+
+/* 212121 */
+
+color: #212121;
+
+}
+
+.opt1 select{
+    box-sizing: border-box;
+
+position: absolute;
+width: 499px;
+height: 28px;
+left: 300px;
+top: 184px;
+
+
+background: #FFFFFF;
+border: 1px solid #DCDCE0;
+border-radius: 6px;
+}
+
+.emaillabel{
+position: absolute;
+width: 44px;
+height: 11px;
+left: 300px;
+top: 225px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 600;
+font-size: 11px;
+line-height: 100%;
+/* identical to box height, or 14px */
+
+display: flex;
+align-items: center;
+text-transform: uppercase;
+
+/* 212121 */
+
+color: #212121;
+}
+
+.opt2 select{
+box-sizing: border-box;
+
+position: absolute;
+width: 499px;
+height: 28px;
+left: 300px;
+top: 237px;
+padding: 4px;
+background: #FFFFFF;
+border: 1px solid #DCDCE0;
+border-radius: 6px;
+}
+
+.phno{
+    position: absolute;
+width: 100px;
+height: 11px;
+left: 300px;
+top: 280px;
+font-family: 'Inter';
+font-style: normal;
+font-weight: 600;
+font-size: 11px;
+line-height: 100%;
+/* identical to box height, or 14px */
+display: flex;
+align-items: center;
+text-transform: uppercase;
+/* 212121 */
+color: #212121;
+}
+
+.phnobox{
+    position: absolute;
+    left: 287px;
+    top: 292px;
+}
+
+.role{
+    position: absolute;
+    width: 100px;
+    height: 11px;
+    left: 600px;
+    top: 280px;
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 11px;
+    line-height: 100%;
+    /* identical to box height, or 14px */
+    
+    display: flex;
+    align-items: center;
+    text-transform: uppercase;
+    
+    /* 212121 */
+    
+    color: #212121;
+    
+}
+
+.roleopt select{
+    box-sizing: border-box;
+
+position: absolute;
+width: 200px;
+height: 28px;
+left: 600px;
+top: 295px;
+color: gray;
+background: #FFFFFF;
+border: 1px solid #DCDCE0;
+border-radius: 6px;
+
+}
+
+.roleopt optg{
+    color:#DCDCE0;
+}
+
+.canbutton button{
+  position: absolute;
+width: 100px;
+height: 28px;
+left: 590px;
+top: 375px;
+
+/* white */
+color:#D1D5DB;
+background: #f6f6f6;
+
+/* cool-gray/300 */
+
+border: 1px solid #D1D5DB;
+border-radius: 6px;
+}
+
+.canbutton button:hover{
+    background: #FFFF;
+    color:black;
+    cursor: pointer;
+}
+
+.btn2 button{
+    box-sizing: border-box;
+
+/* Auto layout */
+position: absolute;
+height: 28px;
+left: 300px;
+top: 350px;
+
+
+background: #FFFFFF;
+/* Style */
+
+border: 1px solid #262626;
+border-radius: 6px;
+}
+
+.btn2 button:hover{
+    background-color: #F6F6F6;
+    cursor: pointer;
+}
+

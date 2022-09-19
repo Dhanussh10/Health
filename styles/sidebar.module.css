@@ -2,13 +2,18 @@
     position: absolute;
    left: 0px;
    top: 0px;
-   width:60px;
+   width:50px;
    height:100%; 
+   display:flex;
+   flex-direction: column;
+   background-color: #1996FC;
 }
 
 .first:hover{
-    width:150px;
+    width:135px;
 }
+
+
 
 .first h1{
     position: absolute;
@@ -16,12 +21,24 @@
     
 }
 
-.second {
+ .second {
     position: absolute;
-    width: 45px;
+    width: 40px;
     height:38px;
     left:6px;
     top: 4px;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.second p{
+    position: absolute;
+    width: 50px;
+    height: 38px;
+    left: 45px;
+    top: -11px;
+    font-size: 20px;
+    color: #FFFFFF;
 }
 
 .first h3{
@@ -54,22 +71,63 @@ top: 45px
 
 .third {
     position: absolute;
-     top: 3px; 
+     top: 10px; 
     right: 70px;
-    width: 35px;
-    height:39px;
+    width: 20px;
+    height:23px;
     cursor:pointer;
 
 }
 
+
+
 .pic {
     position: absolute;
-    width: 32px;
-    height: 32px;
-    top: 6px;
-    right: 10px;
+    width: 29px;
+    height: 28px;
+    top: 8px;
+    right: 19px;
     cursor: pointer;
 }
+
+.secondline{
+    width: 94%;
+    height: 1px;
+    position: relative;
+    top: 70px;
+    left: 60px;
+
+/* cool-gray/200 */
+
+background: #E5E7EB;
+
+/* Inside auto layout */
+
+
+}
+
+.logout button{
+    position: absolute;
+    width: 60px;
+    top: 7px;
+    left: 900px;
+    height: 30px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight:600;
+    background-color: #FFFF;
+    color: black;
+    border-radius: 13px;
+    border: none;
+}
+
+.logout button:hover{
+    background-color: #1996FC;
+    color: #FFFF;
+    cursor: pointer;
+}
+
+
 
 
 

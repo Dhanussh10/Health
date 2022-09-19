@@ -7,6 +7,7 @@ const privacy = () => {
     <div className={styles.container}>
         <Head>
             <title>Privacy Policy</title>
+            <link rel="icon" href="/Health.jpg" />
         </Head>
         <div className={styles.first}>
         <h3>Privacy Policy</h3>

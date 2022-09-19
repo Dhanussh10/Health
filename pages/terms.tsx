@@ -8,6 +8,7 @@ const terms = () => {
     <div className={styles.container}>
     <Head>
     <title>Terms and Conditions</title>    
+    <link rel="icon" href="/Health.jpg" />
     </Head>      
     <div className={styles.first}>
        <h3>Terms and Conditions</h3>

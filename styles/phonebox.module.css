@@ -1,0 +1,18 @@
+.Phonebox{
+    border: 1px solid black;
+    position: absolute;
+    width: 20px !important;
+    height: 23px !important;
+    left: 295px;
+    top: 225px;
+    color: rgba(33, 33, 33, 0.4);
+    background: #FFFFFF;
+    border: 1px solid #DCDCE0;
+    border-radius: 3px;
+    line-height: 100%;
+    font-family: 'Inter';
+    font-style: normal;
+    padding: 4px;
+}
+
+  

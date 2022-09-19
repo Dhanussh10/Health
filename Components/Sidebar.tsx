@@ -5,24 +5,26 @@ import Image from '../node_modules/next/image'
 import styles from "../styles/sidebar.module.css"
 
 const Sidebar = () => {
+
   return (
     <div>
   
         <div className={styles.first}>
-        <Image src="/sidefig-main.jpg" alt="figure" layout='fill' />
-        </div>
         <div className={styles.second}>
-            <Image src="/side-fig1.jpg" alt="figure" layout='fill'/>
+            <Image src="/side-fig1.jpg" alt="figure" layout='fill'/><p>HEALTH</p></div>
         </div>
-        <div className={styles.line}>
-          <p>-</p>
-        </div>
+       
         <div className={styles.third}>
-          <Image src='/Notification_bell.jpg' alt='figure' layout='fill'/>
+          <Image src='/Notification_bell.png' alt='figure' layout='fill'/>
         </div>
         <div className={styles.pic}>
-          <Image src='/photo.jpg' alt="photo" layout='fill'/>
+          <Image src='/photo.png' alt="photo" layout='fill'/>
         </div>
+        <div className={styles.logout}>
+          <button>Logout</button>
+        </div>
+        
+     
      
     </div>
   )

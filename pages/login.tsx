@@ -11,6 +11,7 @@ const login = () => {
     <div className={styles.container}>
       <Head>
         <title>The Login Page</title>
+        <link rel="icon" href="/Health.jpg" />
       </Head>
       <div className={styles.first}>  <h1>Log In</h1></div>
       <div className={styles.second}><label>Email</label>
