@@ -8,7 +8,7 @@ import { useState } from 'react'
 import Skilltable from '../Components/Skilltable'
 
 
-const skills = () => {
+const Skills = () => {
    
   const [showModal,setShowModal]= useState(false);
 
@@ -52,4 +52,4 @@ const skills = () => {
   )
 }
 
-export default skills
+export default Skills

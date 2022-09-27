@@ -8,7 +8,7 @@ import styles from '../styles/project.module.css'
 import Projectmodal from "../Components/Projectmodal"
 import Projecttable from '../Components/Projecttable'
 
-const project = () => {
+const Project = () => {
   const [showModal,setShowModal]= useState(false);
   return (
     <div>
@@ -88,4 +88,4 @@ const project = () => {
   )
 }
 
-export default project
+export default Project

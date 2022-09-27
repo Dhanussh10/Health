@@ -7,7 +7,7 @@ import Addemptype from '../Components/Addemptype'
 import { useState } from 'react'
 import Employeetypetable from '../Components/Employeetypetable'
 
-const employeetype = () => {
+const Employeetype = () => {
  
   const [showModal, setShowModal] = useState(false);
 
@@ -47,4 +47,4 @@ const employeetype = () => {
   )
 }
 
-export default employeetype
+export default Employeetype

@@ -7,7 +7,7 @@ import { useState } from 'react'
 import AddProjecttypemodal from '../Components/AddProjecttypemodal'
 import Projecttypetable from '../Components/Projecttypetable'
 
-const projecttype = () => {
+const Projecttype = () => {
   const [showModal, setShowModal]=useState(false);
 
   const openModal=()=>{
@@ -49,4 +49,4 @@ const projecttype = () => {
   )
 }
 
-export default projecttype
+export default Projecttype

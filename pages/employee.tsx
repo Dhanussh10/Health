@@ -10,7 +10,7 @@ import Phonebox from '../Components/Phonebox'
 import Employeetable from '../Components/Employeetable'
 
 
-const employee = () => {
+const Employee = () => {
   const [showModal,setShowModal]=useState(false);
   return (
     <div>
@@ -77,4 +77,4 @@ const employee = () => {
   )
 }
 
-export default employee
+export default Employee
