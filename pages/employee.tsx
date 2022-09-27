@@ -5,7 +5,7 @@ import Link from '../node_modules/next/link'
 import { LinkHTMLAttributes } from 'react'
 import styles from '../styles/employee.module.css'
 import { useState} from 'react'
-import Employeemodal from '../components/Employeemodal'
+import Employeemodal from '../Components/Employeemodal'
 import Phonebox from '../Components/Phonebox'
 import Employeetable from '../Components/Employeetable'
 
