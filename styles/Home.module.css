@@ -130,7 +130,7 @@
   }
 }
 
-.first img{
+.first{
   position: absolute;
   border: none;
   display: inline-block;
@@ -151,7 +151,7 @@
   position: absolute;
   border: none;
   display: inline-block;
-  background-color: #D2D3D9;
+  background-color: #FFFFFF;
   text-align: center;
   color: black;
   cursor: pointer;

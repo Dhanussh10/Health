@@ -4,9 +4,11 @@ import Head from '../node_modules/next/head'
 import Link from '../node_modules/next/link'
 import { LinkHTMLAttributes } from 'react'
 import styles from '../styles/employee.module.css'
-import { useState } from 'react'
+import { useState} from 'react'
 import Employeemodal from '../components/Employeemodal'
 import Phonebox from '../Components/Phonebox'
+import Employeetable from '../Components/Employeetable'
+
 
 const employee = () => {
   const [showModal,setShowModal]=useState(false);
@@ -68,6 +70,7 @@ const employee = () => {
            </div>
         </Employeemodal>
       </div>
+      <Employeetable/>
         <Sidebar/>
       
     </div>

@@ -6,6 +6,7 @@ import Sidebar from '../Components/Sidebar'
 import Link from '../node_modules/next/link'
 import styles from '../styles/project.module.css'
 import Projectmodal from "../Components/Projectmodal"
+import Projecttable from '../Components/Projecttable'
 
 const project = () => {
   const [showModal,setShowModal]= useState(false);
@@ -81,6 +82,7 @@ const project = () => {
             </div>
         </Projectmodal>
       </div>
+      <Projecttable/>
        <Sidebar/>
     </div>
   )

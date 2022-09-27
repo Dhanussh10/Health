@@ -1,0 +1,26 @@
+.first table{
+    position: absolute;
+    top: 115px;
+    left: 70px;
+    width: 1010px;
+    height: 65%;
+    overflow-y: scroll;
+    max-height: 65%;
+    border-collapse: collapse;
+}
+
+.first th{
+    font-size: 12px;
+    font-family: inter;
+    font-weight: 100;
+    color: #4B5563;
+    background-color: #F3F4F6;
+    position: sticky;
+}
+
+.first td{
+    font-size: 12px;
+    font-family: inter;
+    text-align: center;
+    border-bottom: 1px solid #F3F4F6;
+}

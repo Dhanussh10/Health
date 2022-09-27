@@ -5,7 +5,7 @@ import Sidebar from '../Components/Sidebar'
 import styles from '../styles/employeetype.module.css'
 import Addemptype from '../Components/Addemptype'
 import { useState } from 'react'
-
+import Employeetypetable from '../Components/Employeetypetable'
 
 const employeetype = () => {
  
@@ -25,6 +25,8 @@ const employeetype = () => {
         <div className={styles.first}><h3>Employee Type</h3></div>
         <div className={styles.searchbar}><input type="text" placeholder="search" name="search"/></div>
         <div className={styles.button}><button onClick={openModal}>+&nbsp;Add Employee Type</button></div></div>
+        <Employeetypetable/>
+        <Sidebar/>
         <Addemptype showModal={showModal} setShowModal={setShowModal}>
           <div className={styles.modalfirst}><h3>Add Employee Type</h3></div>
           <div className={styles.modalline}>-</div>
@@ -40,7 +42,7 @@ const employeetype = () => {
           </div>
           <div className={styles.canbutton}><button>Cancel</button></div>
         </Addemptype>
-      <Sidebar/>
+      
     </div>
   )
 }

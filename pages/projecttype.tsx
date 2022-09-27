@@ -5,7 +5,7 @@ import Sidebar from '../Components/Sidebar'
 import styles from '../styles/projecttype.module.css'
 import { useState } from 'react'
 import AddProjecttypemodal from '../Components/AddProjecttypemodal'
-
+import Projecttypetable from '../Components/Projecttypetable'
 
 const projecttype = () => {
   const [showModal, setShowModal]=useState(false);
@@ -20,10 +20,14 @@ const projecttype = () => {
         <title>Project type settings</title>
         <link rel="icon" href="/Health.jpg"/>
       </Head>
+     
       <div className={styles.myfirstcontainer}>
         <div className={styles.first}><h3>Project Type</h3></div>
         <div className={styles.searchbar}><input type="text" placeholder="search" name="search"/></div>
         <div className={styles.button}><button onClick={openModal}>+&nbsp;Add Project Type</button></div></div>
+        <Projecttypetable/>
+        <Sidebar/>
+        
         <AddProjecttypemodal showModal={showModal} setShowModal={setShowModal}>
         <div className={styles.modalfirst}><h3>Add Project Type</h3></div>
           <div className={styles.modalline}>-</div>
@@ -38,8 +42,9 @@ const projecttype = () => {
             </select>
           </div>
           <div className={styles.canbutton}><button>Cancel</button></div>
-          </AddProjecttypemodal>
-      <Sidebar/>
+      </AddProjecttypemodal>
+    
+      
     </div>
   )
 }

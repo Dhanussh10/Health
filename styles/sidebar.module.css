@@ -1,16 +1,140 @@
 .first {
-    position: absolute;
+    position: fixed;
    left: 0px;
    top: 0px;
-   width:50px;
+   width:45px;
+
    height:100%; 
-   display:flex;
-   flex-direction: column;
+   display:grid;
    background-color: #1996FC;
+
+   grid-template-columns: 60px;
+   grid-auto-rows: 70px;
+   grid-auto-columns: 60px;
+   
+
 }
 
+.sides{
+    color: white;
+    position: relative;
+    width: 20px;
+    height: 20px;
+    left: 11px;
+    top: 25px;
+}
+
+
+
+.sides:hover{
+    color: #1996FC;
+    background-color: #FFFFFF;
+    width: 125px;
+    height: 33px;
+    border-radius: 5px;
+    display: #1996FC;
+    padding: 3px;
+}
+.sides p{
+    position: relative;
+    top: -11px;
+    left: 36px;
+    font-size: 13px;
+}
+.sides1 p{
+    position:relative;
+    top: -63px;
+    left:43px;
+    font-size: 22px;
+    color:#FFFFFF;
+    font-weight:600;
+    
+}
+
+.sides2{
+    color: white;
+    position: relative;
+    width: 20px;
+    height: 20px;
+    left: 10px;
+    top:-4px;
+}
+
+.sides2 p{
+    position: relative;
+    left: 36px;
+    top: -10px;
+    font-size: 13px;
+}
+
+.sides2:hover{
+    background-color: #FFFF;
+    width: 125px;
+    height: 33px;
+    padding: 2px;
+    border-radius: 5px;
+    color: #1996FC;
+}
+
+.sides3{
+    color: white;
+    position: relative;
+    width: 20px;
+    height: 20px;
+    left: 10px;
+    top: -35px;
+}
+
+.sides3 p{
+    position: relative;
+    top: -10px;
+    font-size: 13px;
+    left: 36px;
+}
+
+.sides4{
+    position: relative;
+    width: 20px;
+    height: 20px;
+    top: -65px;
+    left: 10px;
+}
+
+.sides3:hover{
+    width:125px;
+    height:33px;
+    padding: 2px;
+    border-radius: 5px;
+    background-color: #FFFF;
+    color:#1996FC;
+}
+
+.sides4 select{
+    border: none;
+    border-repeat: none;
+    width: 45px;
+    height: 20px;
+    color: white;
+    position: absolute;
+    left: 35px;
+    background-color: #FFFF;
+    font-size: 13px;
+    
+}
+    .sides4 select:hover{
+        background-color: #1996FC;
+        color: #FFFF;
+    }
+
+    .sides4 option:hover{
+        background-color: #FFFF;
+        color:#1996FC;
+        
+    }
+
+
 .first:hover{
-    width:135px;
+    width:140px;
 }
 
 
