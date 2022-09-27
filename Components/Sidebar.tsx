@@ -16,8 +16,8 @@ const Sidebar = () => {
         <Image src="/side-fig1.jpg" alt="figure" width={42} height={45}/><p>HEALTH</p></div>
         <div className={styles.sides}><Link href="/Adminpage"><a><Image src="/Admin.png" alt="Image"  layout="fill"/><p>Admin</p></a></Link></div>
        
-         <div className={styles.sides2}><Link href="/project"><a><Image src="/project.png" alt="project" width={25} height={25} layout="fill"/><p>Project</p></a></Link></div>
-          <div className={styles.sides3}><Link href="/employee"><a><Image src="/Employee.png" alt="Emp" width={25} height={25} layout="fill" /><p>Employee</p></a></Link></div>
+         <div className={styles.sides2}><Link href="/Project"><a><Image src="/project.png" alt="project" width={25} height={25} layout="fill"/><p>Project</p></a></Link></div>
+          <div className={styles.sides3}><Link href="/Employee"><a><Image src="/Employee.png" alt="Emp" width={25} height={25} layout="fill" /><p>Employee</p></a></Link></div>
           <div className={styles.sides4}><Image src="/settings.png" alt="Settings" width={20} height={20} layout="fill"/>
          
           </div>
