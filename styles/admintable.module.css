@@ -1,11 +1,12 @@
 .first table{
     position: absolute;
     top: 115px;
-    left: 80px;
-    width: 990px;
-    height: 200px;
+    left: 150px;
+    width: 90%;
+    height: 300px;
     overflow: auto;
     max-height: 10%;
+    right: 100px;
     border-collapse: collapse;
 }
 

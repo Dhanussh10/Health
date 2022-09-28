@@ -27,14 +27,17 @@
 
 
 .sides:hover{
-    color: #1996FC;
     background-color: #FFFFFF;
     width: 125px;
     height: 33px;
+    padding: 2px;
     border-radius: 5px;
-    display: #1996FC;
-    padding: 3px;
+    color: #1996FC;
+
 }
+
+
+
 .sides p{
     position: relative;
     top: -11px;
@@ -194,7 +197,7 @@ top: 45px
 }
 
 .third {
-    position: absolute;
+    position: fixed;
      top: 10px; 
     right: 70px;
     width: 20px;
@@ -206,7 +209,7 @@ top: 45px
 
 
 .pic {
-    position: absolute;
+    position: fixed;
     width: 29px;
     height: 28px;
     top: 8px;
@@ -231,7 +234,7 @@ background: #E5E7EB;
 }
 
 .logout button{
-    position: absolute;
+    position: fixed;
     width: 60px;
     top: 7px;
     left: 900px;
@@ -249,6 +252,82 @@ background: #E5E7EB;
     background-color: #1996FC;
     color: #FFFF;
     cursor: pointer;
+}
+
+.kl{
+    list-style-type: none;
+    position: relative;
+    width: 10px;
+    height: 20px;
+    top: -5px;
+    left: -15px;
+    font-size: 10px;
+    font-family: inter;
+    line-height: 10px;
+    color: white;
+}
+
+
+.lion{
+    position: relative;
+    width: 10px;
+    height: 20px;
+    top: 0px;
+    left: 11px;
+    font-size: 13px;
+    font-family: inter;
+    color: white;
+}
+
+.lion:hover{
+    background-color: #FFFF;
+    color: #1996FC;
+    width: 90px;
+    height:25px;
+    border-radius: 5px;
+    padding: 9px;
+
+}
+
+.liberal{
+    position: relative;
+    width: 10px;
+    height: 20px;
+    top: 5px;
+    left: 11px;
+    font-size: 13px;
+    font-family: inter;
+    color: white;
+}
+
+.liberal:hover{
+    background-color: #FFFF;
+    color: #1996FC;
+    width: 90px;
+    height:25px;
+    border-radius: 5px;
+    padding: 6px;
+
+}
+
+.conservative{
+    position: relative;
+    width: 10px;
+    height: 20px;
+    top: 10px;
+    left: 11px;
+    font-size: 13px;
+    font-family: inter;
+    color: white;
+}
+
+.conservative:hover{
+    background-color: #FFFF;
+    color: #1996FC;
+    width: 90px;
+    height:25px;
+    border-radius: 5px;
+    padding: 6px;
 }
 
 

@@ -19,8 +19,13 @@ const Sidebar = () => {
          <div className={styles.sides2}><Link href="/Project"><a><Image src="/project.png" alt="project" width={25} height={25} layout="fill"/><p>Project</p></a></Link></div>
           <div className={styles.sides3}><Link href="/Employee"><a><Image src="/Employee.png" alt="Emp" width={25} height={25} layout="fill" /><p>Employee</p></a></Link></div>
           <div className={styles.sides4}><Image src="/settings.png" alt="Settings" width={20} height={20} layout="fill"/>
-         
+          <ul className={styles.kl}>
+            <li className={styles.lion}><Link href="/Skills"><a>Skills</a></Link></li>
+            <li className={styles.liberal}><Link href="/Projecttype"><a>Projecttype</a></Link></li>
+            <li className={styles.conservative}><Link href="/Employeetype"><a>Employeetype</a></Link></li>
+          </ul>
           </div>
+         
           
           </div>
          
